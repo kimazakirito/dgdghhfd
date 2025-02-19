@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>petchabun_travel_srithep</title>
+        <link rel="stylesheet" href="phetchabun.css">
+        <nav class="nav2">
+            <a href="file:///C:/xampp/htdocs/67025820/main/phetchabun/phetchabun_restaurant.html">ย้อนกลับ</a>
+        </nav>
+        <style>
+            .imgtop {
+                display: flex;
+                box-sizing: border-box;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                margin-left: -10px;
+                margin-right: -10px;
+                margin-bottom: -20px;
+                margin-top: -60px;
+            } 
+        </style>
+    </head>
+    <body>
+        <div class="flexbox">
+            <div >
+                <div >
+                    <div class="content">
+                        <img class="imgtop" src="">
+                        <br><br>
+                        <h1 class="h1"></h1>
+                        <p>-ดูเต็มๆได้ที่นี่ <a href=""></a></p>
+                        <h1>คุณลักษณะ</h1>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-ตําเเหน่งที่ตั้ง : <a href=""></a></p>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </body>
+</html>

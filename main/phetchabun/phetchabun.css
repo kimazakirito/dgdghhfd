@@ -1,0 +1,235 @@
+.nav2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav2 {
+    background: #fff;
+    padding: 40px 50px;
+    border: solid 1px #ccc;
+    border-radius: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    color: #151515;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 10%;
+    opacity: 0;
+    height: 5px;
+    background-image: linear-gradient( to right,#2aba4d,#12a2af);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    transition: .4s;
+}
+
+nav a:hover::after {
+    width: 50%;
+    opacity: 1;
+}
+
+.flexbox {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+    margin-top: 320px;
+    
+}
+
+.flexbox1 {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+    margin-top: 100px;
+    
+}
+
+.flexbox2 {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+    margin-top: 470px;
+    
+}
+
+.item {
+    
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px; 
+} 
+
+/* .content {
+    border-radius: 10px;
+    background-color: rgb(187, 187, 187);
+    border: 2px solid black;
+    padding: 200px;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content-box {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.content-box img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+}
+.content-details {
+    padding: 20px;
+    flex: 1;
+    margin-bottom: 100px;
+}
+.content-details h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.content-details p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+.content-details a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+/* .imgtop {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+    margin-top: 300px;
+} */
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #cecccc; /* สีพื้นหลังของปุ่ม */
+    color: rgb(214, 214, 214); /* สีตัวอักษร */
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none; /* ไม่ให้ขีดเส้นใต้ */
+    border-radius: 50px; /* ขอบมน */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เงาปุ่ม */
+    transition: all 0.3s ease; /* เพิ่มการเคลื่อนไหว */
+}
+
+.btn:hover {
+    background-color: #ffffff; /* เปลี่ยนสีเมื่อ hover */
+    transform: scale(1.1); /* ขยายขนาดเมื่อ hover */
+}
+
+.btn:active {
+    background-color: #000000; /* เปลี่ยนสีเมื่อกด */
+    transform: scale(1); /* คืนขนาดเมื่อกด */
+}
+
+/* .my-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  } */
+
+  .category-button {
+    background-color: #4CAF50; /* สีเขียว */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: all 0.3s ease; /* เพิ่มเอฟเฟกต์การเปลี่ยนแปลง */
+  }
+  
+  .category-button:hover {
+    background-color: #3e8e41; /* เปลี่ยนสีเมื่อลอยเมาส์ */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
+  }
+
+
+  .content {
+    padding: 20px;
+    flex: 1;
+    margin-bottom: 100px;
+}
+.content h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+.content a {
+    color: rgb(25, 0, 255);
+    text-decoration: none;
+}
